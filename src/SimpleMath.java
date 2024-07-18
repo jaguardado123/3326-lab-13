@@ -1,4 +1,4 @@
-class SimpleMath {
+public class SimpleMath {
 
     // Add the missing prefixes.
     sum(int[] arr, int size) {
