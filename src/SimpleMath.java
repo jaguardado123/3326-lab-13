@@ -1,15 +1,7 @@
 public class SimpleMath {
-
-    // Add the missing prefixes.
-    sum(int[] arr, int size) {
-        // Write your solution here.
-
+    public static void main(String[] args) {
+        // You can test your functions here.
     }
 
-    // Add the missing prefixes.
-    max(int[] arr, int size) {
-        // Write your solution here.
-
-    }
-
+    // You can create your functions here.
 }

@@ -10,37 +10,46 @@ public class SimpleMathTest {
 	
 	@Test
 	public void testing_sum_with_array1() {
-		SimpleMath test = new SimpleMath();
-		assertEquals(32, test.sum(arr1, 5));
+		assertEquals(32, SimpleMath.sum(arr1));
 	}
 
 	@Test
 	public void testing_sum_with_array2() {
-		SimpleMath test = new SimpleMath();
-		assertEquals(349, test.sum(arr2, 5));
+		assertEquals(349, SimpleMath.sum(arr2));
 	}
 
 	@Test
 	public void testing_sum_with_array3() {
-		SimpleMath test = new SimpleMath();
-		assertEquals(1572, test.sum(arr3, 7));
+		assertEquals(1572, SimpleMath.sum(arr3));
 	}
 
 	@Test
 	public void testing_max_with_array1() {
-		SimpleMath test = new SimpleMath();
-		assertEquals(10, test.max(arr1, 5));
+		assertEquals(10, SimpleMath.max(arr1));
 	}
 
 	@Test
 	public void testing_max_with_array2() {
-		SimpleMath test = new SimpleMath();
-		assertEquals(112, test.max(arr2, 5));
+		assertEquals(112, SimpleMath.max(arr2));
 	}
 
 	@Test
 	public void testing_max_with_array3() {
-		SimpleMath test = new SimpleMath();
-		assertEquals(401, test.max(arr3, 7));
+		assertEquals(401, SimpleMath.max(arr3));
+	}
+
+	@Test
+	public void testing_min_with_array1() {
+		assertEquals(2, SimpleMath.min(arr1));
+	}
+
+	@Test
+	public void testing_min_with_array2() {
+		assertEquals(45, SimpleMath.min(arr2));
+	}
+
+	@Test
+	public void testing_min_with_array3() {
+		assertEquals(115, SimpleMath.min(arr3));
 	}
 }

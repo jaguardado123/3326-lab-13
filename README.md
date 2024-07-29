@@ -6,47 +6,70 @@ Unlike previous labs, your class has already been created for you.
 
 ## Let's get started!
 
-Although not necessary for this lab, if you wish to test your solution remember to **create your main() method inside your class**.
+Create your new functions **outside the main() method, but inside your class**.
 
 Now let's begin!
 
-## Functions
+### Functions
 
-Functions in Java have a similar syntax as functions in C++, except Java may require you to include the `static` and/or `public` keywords at the beginning.
+Functions in Java have a similar syntax as functions in C++, except Java requires you to include the `static` keyword at the beginning. We will discuss why later.
 
-A function or method is a block of code which only runs when it is called. You can also pass data, known as parameters, into a method.
+A function is a block of code which only runs when it is called. You can also send and receive data to and from a method.
 
-In Java, methods must be declared within a class. The following the the syntax for creating methods in Java:
+In Java, **functions must be declared inside a class**. Functions declared inside of a class are called **Methods**.
 
-**prefixes type methodName ( parameters ) { }**
+For more information about methods in Java visit: https://www.w3schools.com/java/java_methods.asp or https://www.programiz.com/java-programming/methods
 
-To find out more about methods in Java visit: https://www.w3schools.com/java/java_methods.asp 
+### Parameters
 
-### Prefixes
+Parameters are **variables declared inside the method's** `( )` and are used to receive and store data sent to the method.
 
-Java methods may require the prefixes `public` or `static`.
+**Example:**
 
-Methods with the **public** prefix are accessible outside of the class.
+```java
+static void main(String[] args) {
+	// Sending data in method call.
+	myFunction( 2, 3.21f, "abc" );
+}
+// Parameters will receive:  2    ,    3.21f    ,     "abc"
+static void my_function( int param1, float param2, String param3 ) { /**/ }
+```
 
-Methods with the **static** prefix are accessible within the class.
+For more information on parameters in Java visit: https://www.w3schools.com/java/java_methods_param.asp
 
-To find out more about prefixes visit: https://www.w3schools.com/java/ref_keyword_static.asp and https://www.w3schools.com/java/ref_keyword_public.asp
+### Returning Values
 
-## Your program
+In order to send data from a method you have to specify what value will be returned in its prefix. 
 
-**Simple Math**
+**Non-value returning methods** have prefix `void`. 
 
-For this lab assignment, complete the creation of the two methods **sum** and **max**. Both methods will receive an integer array and its size in its parameters.
+**Value-returning methods** have the prefix of the values type: `int`, `float`, `String`, etc. and require the `return` keyword somewhere inside its `{ }`. 
 
-The **sum** method should return the sum of all the integer values in the array.
+```java
+// Returning a String value
+static String my_str_function() { return "abc"; }
+// Returning an Integer value
+static int my_int_function() { return 0; }
+```
 
-The **max** method should return the largest value within the array.
+For more information on returning values in Java visit: https://www.w3schools.com/java/java_methods_return.asp
 
-**Test Cases**
+## Your Assignment
 
-Unlike previous labs, this lab includes test cases. To see if you passed the test cases, look for a green checkmark next to your repository in GitHub.
+### Simple Math
 
-You can also run the following commands on your terminal in CodeSpaces:
+Create three **Integer returning methods** `sum()`, `max()`, and `min()`. All methods will **receive an Integer array** in their parameter.
+
+The `sum()` method should return the addition of all the values in the array.
+
+The `max()` method should return the largest value within the array.
+
+The `min()` method should return the smallest value within the array.
+
+**Test Your Code:**
+
+Unlike previous labs, this lab includes test cases. Run the following commands in your terminal to test your code:
+
 ```
 ./build.sh
 ./test.sh
@@ -54,4 +77,4 @@ You can also run the following commands on your terminal in CodeSpaces:
 
 ## Submit your assignment
 
-To submit your lab assignment click on the source control icon (3 circles with 2 lines) on your leftside navbar. Next, click on the '+' symbol next to "Changes" to stage your changes. Lastly, add a commit message (ex: "First commit") and click "Commit" then "Push" or "Sync Changes". And you're done!
+To submit your lab assignment click on the **Source Control** icon (3 circles with 2 lines) on your leftside navbar. Next, click on the **+** symbol next to **Changes** to stage your changes. Lastly, add a commit message (ex: "First commit") and click **Commit** then **Sync Changes**. And you're done!
