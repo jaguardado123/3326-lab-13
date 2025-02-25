@@ -72,10 +72,9 @@ Make sure all functions are **static**.
 
 **Test Your Code:**
 
-Unlike previous labs, this lab includes test cases. Run the following commands in your terminal to test your code:
+Unlike previous labs, this lab includes test cases. Run the following command in your terminal to test your code:
 
 ```
-./build.sh
 ./test.sh
 ```
 
