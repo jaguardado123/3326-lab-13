@@ -58,13 +58,17 @@ For more information on returning values in Java visit: https://www.w3schools.co
 
 ### Simple Math
 
-Create three **Integer returning methods** `sum()`, `max()`, and `min()`. All methods will **receive an Integer array** in their parameter.
+Create the following **4 functions** to practice working with functions and function parameters.
 
-The `sum()` method should return the addition of all the values in the array.
+Make sure all functions are **static**.
 
-The `max()` method should return the largest value within the array.
+- `greet()` method should simply output "Hello World!".
 
-The `min()` method should return the smallest value within the array.
+- `sum(x, y)` method should receive two double values and return their sum.
+
+- `even(x)` method should receive one integer value and return true if it's even or false if it's odd.
+
+- `max( []x )` method should receive an integer array and return the largest value.
 
 **Test Your Code:**
 
@@ -77,4 +81,6 @@ Unlike previous labs, this lab includes test cases. Run the following commands i
 
 ## Submit your assignment
 
-To submit your lab assignment click on the **Source Control** icon (3 circles with 2 lines) on your leftside navbar. Next, click on the **+** symbol next to **Changes** to stage your changes. Lastly, add a commit message (ex: "First commit") and click **Commit** then **Sync Changes**. And you're done!
+[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_13.pdf)
+
+[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
