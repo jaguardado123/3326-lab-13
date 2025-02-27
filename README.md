@@ -56,7 +56,7 @@ For more information on returning values in Java visit: https://www.w3schools.co
 
 ## Your Assignment
 
-### Simple Math
+### Simple Functions
 
 Create the following **4 functions** to practice working with functions and function parameters.
 
