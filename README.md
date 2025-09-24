@@ -1,6 +1,6 @@
-# Lab Assignment 13
+# Lab 13
 
-In this lab you will practice working with functions.
+In this lab you will practice working with **functions**.
 
 Unlike previous labs, your class has already been created for you. 
 
@@ -62,13 +62,13 @@ Create the following **4 functions** to practice working with functions and func
 
 Make sure all functions are **static**.
 
-- `greet()` method should simply output "Hello World!".
+- `greet()` method should be non-value returning and simply output "Hello World!".
 
-- `sum(x, y)` method should receive two double values and return their sum.
+- `sum(x, y)` method should receive two double values and return their sum as a double.
 
-- `even(x)` method should receive one integer value and return true if it's even or false if it's odd.
+- `even(x)` method should receive one integer value and return `true` if it's even or `false` if it's odd.
 
-- `max( []x )` method should receive an integer array and return the largest value.
+- `max( []x )` method should receive an integer array and return the largest integer value.
 
 **Test Your Code:**
 
