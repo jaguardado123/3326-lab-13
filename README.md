@@ -78,8 +78,14 @@ Unlike previous labs, this lab includes test cases. Run the following command in
 ./test.sh
 ```
 
-## Submit your assignment
+<br>
 
-[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_13.pdf)
+**Grading Criteria:**
+| Criteria | Points |
+|---|---|
+| Program passes all the test cases. | 60 (15 per test) |
+| Functions are the correct type (void, int, float, etc.).  | 15 |
+| Functions have the correct amount and type of parameters. | 15 |
+| Functions are static. | 10 |
 
 [How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
